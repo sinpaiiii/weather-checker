@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather checker</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Weather checker</h1>
+    <div class="ui">
+      <input type="text" class="search" id="search" /><button
+        class="sea"
+        id="sea"
+        onclick="tempe()"
+      >
+        search
+      </button>
+    </div>
+    <div class="dis" id="dis">
+      <div class="con">
+        <p class="pic" id="pic"></p>
+        <div class="desi">
+          <p id="des" class="des">The weather is..</p>
+          <p id="lat" class="lat">lat:XXX long:XXX</p>
+        </div>
+      </div>
+      <h2 id="temperature"></h2>
+      <p id="description"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

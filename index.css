@@ -1,0 +1,65 @@
+* {
+  background-color: #effffd;
+  margin: 0;
+}
+.ui {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  opacity: 1;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+  opacity: 1;
+}
+
+input {
+  border-color: #354259;
+  margin: 2px;
+  opacity: 1;
+}
+button {
+  border-color: #354259;
+  margin: 2px;
+  opacity: 1;
+}
+.con {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  justify-content: center;
+}
+.desi {
+  display: flex;
+  flex-direction: column;
+}
+.des {
+  text-align: left;
+  padding: 2px;
+  width: 200px;
+  height: 28px;
+  font-weight: bold;
+}
+.lat {
+  text-align: left;
+  padding: 1px;
+  width: 200px;
+  font-size: smaller;
+  height: 19px;
+}
+.pic {
+  width: 50px;
+  height: 50px;
+}
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
